@@ -14,11 +14,11 @@ gem 'sqlite3'
 gem 'pg'
 
 group :development do
-	gem 'rspec-rails', '2.0.1'
+	gem 'rspec-rails'
 end
 
 group :test do
-	gem 'rspec', '2.0.1'
+	gem 'rspec', '2.6'
 	gem 'webrat', '0.7.1'
 end
 
