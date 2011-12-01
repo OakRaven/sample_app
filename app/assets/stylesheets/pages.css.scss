@@ -1,3 +1,31 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#navbar {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	li {
+		display: inline;
+		
+		a {
+			text-decoration:none;
+			padding:5px 0;
+			width:100px;
+			background:#25567B;
+			color:#eee;
+			float:left;
+			
+			text-align:center;
+			border-left:1px solid #fff;
+		}
+		
+		a:hover {
+			background: #3F92D2;
+		}
+	}
+}
+
+#content {
+	clear: both;
+}
