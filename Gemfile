@@ -18,8 +18,9 @@ group :development do
 end
 
 group :test do
-	gem 'rspec', '2.6'
+	gem 'rspec'
 	gem 'webrat', '0.7.1'
+	gem 'spork'
 end
 
 # Gems used only for assets and not required
