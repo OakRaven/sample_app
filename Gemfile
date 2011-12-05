@@ -16,6 +16,7 @@ gem 'gravatar_image_tag'
 
 group :development do
 	gem 'rspec-rails'
+  gem 'awesome_print'
 end
 
 group :test do
